@@ -13,3 +13,28 @@ for food in foods:
 
 
 # foods(0) = "pizza"
+with open("test.csv") as csv_file:
+    data = CsvWriter(csv_file, "rb")
+
+my_list = [
+    1,
+    2,
+    3223,
+    432,
+    432,
+    32,
+    341,
+    432,
+    4312,
+    4324,
+    3214,
+    432,
+    432,
+    432,
+    432,
+    4321,
+    45,
+    6,
+    54,
+    767453,
+]
