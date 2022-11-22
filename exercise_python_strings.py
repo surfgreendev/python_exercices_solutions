@@ -70,6 +70,19 @@ print(my_name_2.lstrip())
 print(my_name_2.rstrip())
 print(my_name_2.strip())
 print(my_name_2)
+# Comment
 my_name_2 = my_name_2.strip()
 
 print(my_name_2)
+
+
+class MyObject:
+    """
+    This class ...
+    """
+
+    def __init__(self):
+        """
+        _summary_
+        """
+        pass
