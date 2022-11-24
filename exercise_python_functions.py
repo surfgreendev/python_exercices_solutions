@@ -6,10 +6,12 @@ function, and make sure the message displays correctly.
 
 
 def display_message():
+    """Display Message"""
     print("I learn python functions!")
 
 
 display_message()
+
 
 """
 Favorite Book: Write a function called favorite_book() that accepts one
@@ -20,6 +22,7 @@ include a book title as an argument in the function call.
 
 
 def favorite_book(title):
+    """Show favorite book"""
     print(f"One of my favorite books is {title.title()}")
 
 
