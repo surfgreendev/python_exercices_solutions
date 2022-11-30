@@ -26,17 +26,19 @@ album information correctly.
 
 """
 
+dict = {"key": "value", "key2": "value2"}
+
 
 def make_album(artist_name, album_title):
     """
     Create artist/album title dictionary
 
     Args:
-        artist_name (_type_): _description_
+        artist_name (String): It's a name of an artist.
         album_title (_type_): _description_
 
     Returns:
-        _type_: _description_
+        dict: Lorem ipsum
     """
     return {"artist_name": artist_name.title(), "album_title": album_title.title()}
 
